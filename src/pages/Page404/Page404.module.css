@@ -1,0 +1,29 @@
+.page404 {
+    width: 100%;
+    min-height: 73vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title2 {
+    padding-top: 2rem;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big_text, 
+.orange_text {
+    font-size: 250px;
+    color: var(--btn-color);
+    font-weight: bold;
+}
+
+.orange_text {    
+    font-size: 1.5rem;
+}

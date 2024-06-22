@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    font-size: 1.5rem; /* 24px -> 16px = 1rem*/
+    font-weight: bold;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white-color);
+    padding-right: 1.5rem;
+    font-size: 1.125rem; /* 18px -> 16px = 1rem*/
+    transition: all .5s;
+}
+
+.header a:hover{
+    color: var(--btn-color);   
+}

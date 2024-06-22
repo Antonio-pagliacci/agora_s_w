@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Fira Code', monospace,  Sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjsut: 100%;
+
+    --primary-color: #1e81b0;
+    --white-color: #eeeee4;
+    --btn-color: #f8702b;
+    --btn-hover: #d84e09;
+    --text-color: #4d4d4b;
+    --text-color-white: #cecdcd;
+}
